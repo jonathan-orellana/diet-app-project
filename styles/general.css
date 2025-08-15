@@ -1,0 +1,54 @@
+:root {
+  --color-teal: #27C7B8;
+  /* Title + icons */
+  --color-purple: #8B4DAD;
+  /* Section labels */
+  --color-dark-gray: #333333;
+  /* Main text */
+  --color-medium-gray: #5A5C61;
+  /* Left panel bg */
+  --second-bg-color: #F3F3F3;
+  /* Table background */
+  --bg-color: #FFFFFF;
+  /* Base background */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border-radius: 0px;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: Poppins, sans-serif
+}
+
+section {
+  min-height: 100vh;
+  padding: 10rem 15% 10rem;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+button {
+  background-color: var(--color-teal);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 24px;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1)translateY(-5px);
+}
+
+button i {
+  padding: 0px 16px;
+}

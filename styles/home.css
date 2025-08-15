@@ -1,0 +1,42 @@
+.home h2 {
+  font-size: 4rem;
+  color: var(--color-purple);
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.my-diet-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+
+.my-diet-box {
+  flex: 1 1 40rem;
+  background: white;
+  padding: 3rem 2rem 4rem;
+  border-radius: 2rem;
+  text-align: center;
+  border: 0.2rem solid rgb(224, 224, 224);
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.my-diet-box:hover {
+  transform: scale(1.02);
+  border: 2px solid var(--color-teal);
+}
+
+.my-diet-box h3 {
+  color: var(--color-purple);
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.my-diet-box p {
+  font-size: 20px;
+  margin-bottom: 24px;
+}
