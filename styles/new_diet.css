@@ -1,0 +1,74 @@
+body {
+  background-color: var(--bg-color);
+}
+
+input {
+  border: 2px solid rgb(224, 224, 224);
+  border-radius: 5px;
+}
+
+.new_diet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.new_diet_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 50px 10% 50px;
+
+}
+
+.new_diet_form input {
+  width: 50%;
+  margin-bottom: 24px;
+  padding: 8px 16px;
+}
+
+.new_diet_form p {
+  margin-bottom: 16px;
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.back-button p {
+  margin: 0;
+  margin-left: 8px;
+  font-size: 14px;
+}
+
+.back-button i {
+  font-size: 14px;
+}
+
+.new_diet_form .next-button:hover {
+  transform: scale(1.02)translateY(0);
+}
+
+.thanks-form-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thanks-form-message h2 {
+  margin-bottom: 8px;
+}
+
+.thanks-form-message p {
+  margin-bottom: 36px;
+}
+
+.thanks-form-message button {
+  margin-bottom: 8px;
+}
